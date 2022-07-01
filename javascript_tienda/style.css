@@ -12,6 +12,12 @@ body{
 
 i{
     cursor: pointer;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 /**
@@ -103,3 +109,38 @@ i{
 .bi-plus-lg{
     color: green;
 }
+
+/**
+* ! style rules for label and some buttons
+**/
+
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.HomeBtn{
+    font-family: sans-serif;
+    background-color: #212529;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding:  6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cartItems{
+    display: flex;
+    grid-template-columns:(1,223px);
+    justify-content: center;
+    border: 2px solid black;
+    margin: 7px 500px;
+    border-radius: 4px;
+}
+
+.bi-x{
+    position: absolute;
+    margin: 0px 115px;
+}
+
